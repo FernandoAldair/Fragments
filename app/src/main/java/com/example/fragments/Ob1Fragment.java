@@ -32,7 +32,7 @@ public class Ob1Fragment extends Fragment {
         binding.botonNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                navController.navigate(R.id.action_ob1Fragment_to_onboarding1Fragment);
+                navController.navigate(R.id.action_ob1Fragment_to_onboardin1Fragment);
             }
         });
         binding.botonSkip.setOnClickListener(new View.OnClickListener() {
