@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.fragments.databinding.FragmentOnboarding1Binding;
+
 import com.example.fragments.databinding.FragmentOnboarding2Binding;
 
 

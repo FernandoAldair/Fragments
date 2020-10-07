@@ -37,5 +37,11 @@ public class Onboarding1Fragment extends Fragment {
                 navController.navigate(R.id.action_onboarding1Fragment_to_onboarding2Fragment);
             }
         });
+        binding.botonSkip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navController.navigate(R.id.action_onboarding1Fragment_to_homeFragment);
+            }
+        });
     }
 }
